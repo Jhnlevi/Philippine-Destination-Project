@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Beaches</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/png" href="phimg/travel.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Comfortaa">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!--smooth scroll-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		  $("a").on('click', function(event) {  
+		    if (this.hash !== "") {
+		      var hash = this.hash;
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top
+		      }, 800, function(){
+		        window.location.hash = hash;
+		      });
+		    }
+		  });
+		});
+		</script>
+		<style type="text/css">
+		.btn, .btn.inverse:hover{
+				background-color: #87CEFA;
+				border-color: #87CEFA;
+		}
+		.bg-default{
+			background-color: #87CEFA;
+		}
+		.logo{
+			color: #87CEFA;
+		}
+		nav ul li a:hover, nav ul li a.active{
+			background: #87CEFA;
+		}
+		#banner-text h1{
+			color: #87CEFA;
+		}
+		#textsection h6{
+			color: #87CEFA;
+		}
+		table, th, td {
+		  color: #87CEFA;
+		}
+		#offers h6, h3{
+			color: #87CEFA;
+		}
+		#parallax-1{
+			background: url(phimg/phbeach1.jpg) fixed no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+		#tourist .border-right{
+		border-right: 10px solid #87CEFA;
+		}
+		#tourist .border-left{
+		border-left: 10px solid #87CEFA;
+		}
+		#tourist #fixed-1{
+			background: url(phimg/beaches/boracay.jpg) no-repeat;
+			height: 400px;
+			background-position: center;
+			background-size: cover;
+		}
+		#tourist #fixed-2{
+			background: url(phimg/beaches/camiguin.jpg) no-repeat;
+			height: 400px;
+			background-position: center;
+			background-size: cover;
+		}
+		#tourist #fixed-3{
+			background: url(phimg/beaches/panglao.jpg) no-repeat;
+			height: 400px;
+			background-position: center;
+			background-size: cover;
+		}
+		#tourist #fixed-4{
+			background: url(phimg/beaches/samalisland.jpg) no-repeat;
+			height: 400px;
+			background-position: center;
+			background-size: cover;
+		}
+		#tourist #fixed-5{
+			background: url(phimg/beaches/siargao.jpg) no-repeat;
+			height: 400px;
+			background-position: center;
+			background-size: cover;
+		}
+		#parallax-2{
+		background: url(phimg/beaches/boracay.jpg) fixed no-repeat;
+		min-height: 300px;
+		background-position: center;
+		background-size: cover;
+		}
+		#parallax-3{
+		background: url(phimg/beaches/camiguin.jpg) fixed no-repeat;
+		min-height: 300px;
+		background-position: center;
+		background-size: cover;
+		}
+		#parallax-4{
+		background: url(phimg/beaches/panglao.jpg) fixed no-repeat;
+		min-height: 300px;
+		background-position: center;
+		background-size: cover;
+		}
+		#parallax-5{
+		background: url(phimg/beaches/samalisland.jpg) fixed no-repeat;
+		min-height: 300px;
+		background-position: center;
+		background-size: cover;
+		}
+		#parallax-6{
+		background: url(phimg/beaches/siargao.jpg) fixed no-repeat;
+		min-height: 300px;
+		background-position: center;
+		background-size: cover;
+		}
+		</style>
+
+</head>
+<body id="myPage">
+	<section id="parallax-1">
+		<div class="overlay">
+		<header class="d-flex-c justify-content-space-between">
+		<nav class="nav-main text-dark">
+			<a href="https://en.wikipedia.org/wiki/Philippines" class="logo text-center font-x1 text-bold">#Philippines</a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+
+				<li><a href="#">Islands</a>
+					<ul>
+						<li><a href="luzon.html">Luzon</a></li>
+						<li><a href="visayas.html">Visayas</a></li>
+						<li><a href="mindanao.html">Mindanao</a></li>
+					</ul>
+				</li>
+
+				<li><a href="#" class="active">Destinations</a>
+					<ul>
+						<li><a href="landmarks.html">Landmarks</a></li>
+						<li><a href="#" class="active">Beaches</a></li>
+						<li><a href="waterfalls.html">Waterfalls</a></li>
+					</ul>
+				</li>	
+
+			</ul>
+		</nav>
+		<div class="clearfix"></div>
+		</header>
+
+		<!--Banner Text-->
+		<div id="banner-text" class="d-flex-c text-center">
+			<article>
+				<p class="font-x1">It's more fun in the Philippines</p>
+				<h1 class="heading text-center text-uppercase text-bold font-x4">Beach</h1>
+				<p class="font-x1 text-uppercase">Be part of the fun!</p>
+				<footer><button class="btn"><a href="index.html">Home</a></button></footer>
+				
+			</article>
+		</div>
+			<!--Banner Text Ends Here-->
+		</div>
+	</section>
+	<!--text section-->
+	<section class="wrapper text-dark bg-grey" id="textsection">
+		<div class="d-flex-c container">
+			<!--Title -->
+			<div class="text-center">
+				<h6 class="heading font-x2"><i>Best Beaches in the Philippines</i></u></h6>
+			</div>
+
+			<div>
+				<div class="mx-5 font-x1 text-justify">
+					<p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In a country of over 7,000 islands, beach lovers will find themselves in tropical utopia when in the Philippines. And since the number of beach destinations can be overwhelming, we’ve narrowed down the search for you. Here are some of the most amazing beaches in the Southeast Asian archipelago.&hellip;</i></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Parallax scrolling-->
+	<section class="wrapper" id="parallax-2">
+	</section>
+
+	<section class="wrapper" id="tourist">
+		<div class="d-flex-r" id="textsection1">
+
+			<div class="one_half my-2" id="fixed-1"></div>	
+
+			<div class="one_half text-dark text-center">
+				<div class="border-left m-2 p-2">
+					<h6 class="font-x2 heading text-left text-bold">Boracay</h6>
+
+					<p class="text-left">
+					    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Boracay is a small island in the Philippines located approximately 315 kilometres (196 mi) south of Manila and 2 kilometres (1.2 mi) off the northwest tip of Panay Island in Western Visayas region of the Philippines. Boracay Island and its beaches have received awards from numerous travel publications and agencies. 
+					<br>
+					<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The name Boracay is attributed to different origins. One story says that it is derived from the local word "borac" which means white cotton with characteristics close to the color and texture of Boracay's white sugary and powdery sand.[21] Ati tradition states that the name of the island came from the Inati words "bora," meaning bubbles, and "bocay," meaning white. Yet another version dating back to the Spanish era says the name is derived from "sagay," the word for a shell, and "boray," the word for seed.
+					<br>
+					<br>
+						Area: <b>10.32 km<sup>2</sup></b>
+						<br>
+						Elevation: <b>100 m</b>
+						<br>
+						Province: <b>Aklan</b>
+						<br>
+						Population: <b>12,003 (2000)</b>
+					</p>
+
+				</div>
+			</div>
+					
+		</div>
+	</section>
+
+	<!--Parallax scrolling-->
+	<section class="wrapper" id="parallax-3">
+	</section>
+
+	<section class="wrapper" id="tourist">
+		<div class="d-flex-r" id="textsection1">		
+
+			<div class="one_half text-dark text-left">
+				<div class="border-right m-2 p-2">
+					<h6 class="font-x2 heading text-right text-bold">Camiguin Island</h6>
+
+					<p class="text-right">
+					    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Camiguin is an island province in the Philippines located in the Bohol Sea, about 10 kilometres (6.2 mi) off the northern coast of Mindanao. It is geographically part of Region X, the Northern Mindanao Region of the country and formerly a part of Misamis Oriental province. Camiguin is the second-smallest province in the country in both population and land area after Batanes. The provincial capital is Mambajao, which is also the province's largest municipality in both area and population. 
+					<br>
+					<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The province is famous for its sweet lanzones, to which its annual Lanzones Festival is dedicated, and its interior forest reserves, collectively known as the Mount Hibok-Hibok Protected Landscape, which has been declared by all Southeast Asian nations as an ASEAN Heritage Park. The province also boasts three National Cultural Treasures, namely, the Old Bonbon Church ruins in Catarman, the Sunken Cemetery of Catarman, and the Spanish-era watchtower in Guinsiliban.
+					<br>
+					<br>
+					Highest elevation: <b>(Mount Mambajao): 1,713 m (5,620 ft)</b>
+					<br>
+					Spoken language: <b>Cebuano; Kinamigin; English</b>
+					</p>
+				</div>
+			</div>
+
+			<div class="one_half my-2" id="fixed-2"></div>
+	
+		</div>
+	</section>
+
+	<!--Parallax scrolling-->
+	<section class="wrapper" id="parallax-4">
+	</section>
+
+	<section class="wrapper" id="tourist">
+		<div class="d-flex-r" id="textsection1">
+
+			<div class="one_half my-2" id="fixed-3"></div>			
+
+			<div class="one_half text-dark text-left">
+				<div class="border-left m-2 p-2">
+					<h6 class="font-x2 heading text-left text-bold">Panglao Island</h6>
+
+					<p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Panglao is an island in the north Bohol Sea, located in the Central Visayas region of the Visayas island group, in the south-central Philippines. The island has an area of 91.12 square kilometres (35.18 sq mi). It is within Bohol Province, and comprises two municipalities: Dauis and Panglao. Panglao island is located southwest of the island of Bohol and east and south of Cebu. Panglao has a terrain that ranges from plain, hilly to mountainous. Panglao is made of Maribojoc limestone, the youngest of the limestone units found in the western area of Bohol. The limestone composition halted the development of an airport as coralline limestone is soluble which causes formation of caves and sinkholes. One interesting geological feature found in the island is the Hinagdanan Cave which has an underground water source. The cave is an important water source as the island has no rivers or lakes. 
+					<br>
+					<br>
+					Area: <b>80.5 km<sup>2</sup></b>
+					<br>
+					Province: <b>Bohol</b>
+					</p>
+
+				</div>
+			</div>
+	
+		</div>
+	</section>
+
+	<!--Parallax scrolling-->
+	<section class="wrapper" id="parallax-5">
+	</section>
+
+	<section class="wrapper" id="tourist">
+		<div class="d-flex-r" id="textsection1">			
+
+			<div class="one_half text-dark text-left">
+				<div class="border-right m-2 p-2">
+					<h6 class="font-x2 heading text-right text-bold">Samal Island</h6>
+
+					<p class="text-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Samal, officially the Island Garden City of Samal, or sometimes called IGaCOS, is a 4th class city in the province of Davao del Norte, Philippines. According to the 2015 census, it has a population of 104,123 people. It is made up of Samal Island and the smaller Talikud Island in the Davao Gulf, from the merger of former municipalities of Samal, Babak, and Kaputian. Samal is a part of the Metropolitan Davao area and is two kilometers away from Davao City, the largest city and the primary economic center of Mindanao. 
+					<br>
+					<br>
+					Area: <b>301.3 km<sup>2</sup></b>
+					<br>
+					Weather: <b>27°C, Wind E at 3 km/h, 84% Humidity</b>
+					</p>
+
+				</div>
+			</div>
+	
+			<div class="one_half my-2" id="fixed-4"></div>
+
+		</div>
+	</section>
+
+	<!--Parallax scrolling-->
+	<section class="wrapper" id="parallax-6">
+	</section>
+
+	<section class="wrapper" id="tourist">
+		<div class="d-flex-r" id="textsection1">
+
+			<div class="one_half my-2" id="fixed-5"></div>			
+
+			<div class="one_half text-dark text-left">
+				<div class="border-left m-2 p-2">
+					<h6 class="font-x2 heading text-left text-bold">Siargao</h6>
+
+					<p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siargao is a tear-drop shaped island in the Philippine Sea situated 800 kilometers southeast of Manila in the province of Surigao del Norte. It has a land area of approximately 437 square kilometres (169 sq mi). The east where such Art Skyes coast is relatively straight with one deep inlet, Port Pilar. The coastline is marked by a succession of reefs, small points and white, sandy beaches. The neighboring islands and islets have similar landforms. The island is composed of municipalities of Burgos, Dapa, Del Carmen, General Luna, San Benito, Pilar, San Isidro, Santa Monica and Socorro. 
+					<br>
+					<br>
+					Area: <b>437 km<sup>2</sup></b>
+					<br>
+					Province: <b>Surigao del Norte</b>
+					<br>
+					Population: <b>94,273 (2015)</b>
+					<br>
+					Region: <b>Caraga</b>
+
+					</p>
+				</div>
+			</div>
+	
+		</div>
+	</section>
+
+	<div class="d-flex-c container wrapper text-dark" id="offers">	
+			<!--Title-->
+			<div class="text-center my-2">
+				<h6 class="heading font-x2">Other Beaches in the Philippines</h6>
+			</div>
+
+			<div class="d-flex-r">
+				<article class="hover1 mx-2">
+					<figure class="my-1"><img src="phimg/elnido.jpg"></figure></a>
+					<h3 class="heading font-x1">El Nido</h3>
+					<p class="text-justify">Far off on the island of Palawan is the idyllic El Nido. You’ll find a few spectacular beaches here such as Buena Suerte Beach, Caalan beach, Papaya Beach, Yoga Beach, and more. In El Nido, every beach is more jaw-dropping than the next. El Nido beaches have become a ‘bucket list’ destination for travelers as they are perfectly picturesque and accessible while being mysterious and full of adventure.es.</p>
+				</article>
+
+				<article class="hover1 mx-2">
+					<figure class="my-1"><img src="phimg/alona.jpg"></figure></a>
+					<h3 class="heading font-x1">Alona Beach</h3>
+					<p class="text-justify">Alona beach is located on the tiny kidney bean-shaped island called Pangloa. This may be one of the smallest tourist islands in the Visayas but it has a lot to offer in terms of pristine beachfront property. You can stay in a top-tier resort, comfy guesthouse, or dirt cheap hostel and still enjoy the same tropical oasis.</p>
+				</article>
+
+				<article class="hover1 mx-2">
+					<figure class="my-1"><img src="phimg/palaui.jpg"></figure></a>
+					<h3 class="heading font-x1">Palaui Beach</h3>
+					<p class="text-justify">Like a scene out of the ever-popular series “Lost”, Cagayan Valley on Palaui Island doesn’t feel real. While bathing in the warm water looking upon the shore, not only will you gaze upon bright white beaches, but also volcanic mountains and rolling hills with no development in sight. Often referred to as a beach that encapsulates “raw beauty”, Cagayan Valley is stunning.</p>
+				</article>
+
+				<article class="hover1 mx-2">
+					<figure class="my-1"><img src="phimg/parab.jpg"></figure></a>
+					<h3 class="heading font-x1">Paradise Beach</h3>
+					<p class="text-justify">A honeymooner’s paradise can be found on the small island of Bantayan Island just west of Cebu. Most months out of the year, couples will find themselves totally alone. This desolate beach turns adult couples into playful little children who can forget the world while splashing in the water, running barefoot in the sand and taking to the jungles to explore paths trodden by few adventurers before them. </p>
+				</article>
+			</div>
+	</div>
+	<!--Footer-->
+	<div class="wrapper bg-default">
+		<footer class="d-flex-r clear container text-white" id="main-footer">
+			<div class="mx-2">
+				<h6 class="heading font-x1 my-1 text-center">Contact</h6>
+				<ul class="nospace linkedlist contact">
+					<li></i>(+63)09174550027</li>
+					<li></i>levibarcenas.05@gmail.com</li>
+				</ul>
+			</div>
+
+			<div class="mx-2">
+				<h6 class="heading my-1 font-x1 text-center">Islands</h6>
+				<ul class="nospace linkedlist">
+					<li><a href="luzon.html">#Luzon</a></li>
+					<li><a href="visayas.html">#Visayas</a></li>
+					<li><a href="mindanao.html">#Mindanao</a></li>
+				</ul>
+			</div>
+
+			<div class="mx-2">
+				<h6 class="heading my-1 font-x1 text-center">Destinations</h6>
+				<ul class="nospace linkedlist">
+					<li><a href="landmarks.html">Landmarks</a></li>
+					<li><a href="beaches.html">Beaches</a></li>
+					<li><a href="waterfalls.html">Waterfalls</a></li>
+				</ul>
+			</div>
+		</footer>
+
+		<div class="d-flex-r clear justify-content-space-between" id="copyright">
+			<p class="d-flex-r">John Levi P. Barcenas BSIT 3-2</p>
+			<a href="#myPage" id="backtotop"><i class="fa fa-chevron-up"></i></a>
+		</div>
+	</div>
+</body>
+</html>

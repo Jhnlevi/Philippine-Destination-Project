@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landmarks</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/png" href="phimg/travel.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Comfortaa">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!--smooth scroll-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		  $("a").on('click', function(event) {  
+		    if (this.hash !== "") {
+		      var hash = this.hash;
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top
+		      }, 800, function(){
+		        window.location.hash = hash;
+		      });
+		    }
+		  });
+		});
+		</script>
+		<style type="text/css">
+		.btn, .btn.inverse:hover{
+				background-color: #F08080;
+				border-color: #F08080;
+		}
+		.bg-default{
+			background-color: #F08080;
+		}
+		.logo{
+			color: #F08080;
+		}
+		nav ul li a:hover, nav ul li a.active{
+			background: #F08080;
+		}
+		#banner-text h1{
+			color: #F08080;
+		}
+		#textsection h6{
+			color: #F08080;
+		}
+		table, th, td {
+		  color: #F08080;
+		}
+		#offers h6, h3{
+			color: #F08080;
+		}
+		#parallax-1{
+			background: url(phimg/lunetapark.jpg) fixed no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+		#tourist .border-right{
+		border-right: 10px solid #F08080;
+		}
+		#tourist .border-left{
+		border-left: 10px solid #F08080;
+		}
+		#tourist #fixed-1{
+			background: url(phimg/landmarks/mayon1.jpg) no-repeat;
+			height: 400px;
+			background-position: center;
+			background-size: cover;
+		}
+		#tourist #fixed-2{
+			background: url(phimg/landmarks/aguinaldo.jpg) no-repeat;
+			height: 400px;
+			background-position: center;
+			background-size: cover;
+		}
+		#tourist #fixed-3{
+			background: url(phimg/landmarks/Taal-Volcano.jpg) no-repeat;
+			height: 400px;
+			background-position: center;
+			background-size: cover;
+		}
+		#tourist #fixed-4{
+			background: url(phimg/landmarks/riceterraces.jpg) no-repeat;
+			height: 400px;
+			background-position: center;
+			background-size: cover;
+		}
+		#tourist #fixed-5{
+			background: url(phimg/landmarks/leyte.jpg) no-repeat;
+			height: 400px;
+			background-position: center;
+			background-size: cover;
+		}
+		#parallax-2{
+		background: url(phimg/landmarks/mayon1.jpg) fixed no-repeat;
+		min-height: 300px;
+		background-position: center;
+		background-size: cover;
+		}
+		#parallax-3{
+		background: url(phimg/landmarks/aguinaldo.jpg) fixed no-repeat;
+		min-height: 300px;
+		background-position: center;
+		background-size: cover;
+		}
+		#parallax-4{
+		background: url(phimg/landmarks/Taal-Volcano.jpg) fixed no-repeat;
+		min-height: 300px;
+		background-position: center;
+		background-size: cover;
+		}
+		#parallax-5{
+		background: url(phimg/landmarks/riceterraces.jpg) fixed no-repeat;
+		min-height: 300px;
+		background-position: center;
+		background-size: cover;
+		}
+		#parallax-6{
+		background: url(phimg/landmarks/leyte.jpg) fixed no-repeat;
+		min-height: 300px;
+		background-position: center;
+		background-size: cover;
+		}
+		</style>
+
+</head>
+<body id="myPage">
+	<section id="parallax-1">
+		<div class="overlay">
+		<header class="d-flex-c justify-content-space-between">
+		<nav class="nav-main text-dark">
+			<a href="https://en.wikipedia.org/wiki/Philippines" class="logo text-center font-x1 text-bold">#Philippines</a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+
+				<li><a href="#">Islands</a>
+					<ul>
+						<li><a href="luzon.html">Luzon</a></li>
+						<li><a href="visayas.html">Visayas</a></li>
+						<li><a href="mindanao.html">Mindanao</a></li>
+					</ul>
+				</li>
+
+				<li><a href="#" class="active">Destinations</a>
+					<ul>
+						<li><a href="#" class="active">Landmarks</a></li>
+						<li><a href="beaches.html">Beaches</a></li>
+						<li><a href="waterfalls.html">Waterfalls</a></li>
+					</ul>
+				</li>		
+
+			</ul>
+		</nav>
+		<div class="clearfix"></div>
+		</header>
+
+		<!--Banner Text-->
+		<div id="banner-text" class="d-flex-c text-center">
+			<article>
+				<p class="font-x1">It's more fun in the Philippines</p>
+				<h1 class="heading text-center text-uppercase text-bold font-x4">Landmarks</h1>
+				<p class="font-x1 text-uppercase">Be part of the fun!</p>
+				<footer><button class="btn"><a href="index.html">Home</a></button></footer>
+				
+			</article>
+		</div>
+			<!--Banner Text Ends Here-->
+		</div>
+	</section>
+	<!--text section-->
+	<section class="wrapper text-dark bg-grey" id="textsection">
+		<div class="d-flex-c container">
+			<!--Title -->
+			<div class="text-center">
+				<h6 class="heading font-x2"><i>Popular Landmarks in the Philippines</i></u></h6>
+			</div>
+
+			<div>
+				<div class="mx-5 font-x1 text-justify">
+					<p><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Philippines has long been considered a top tourist destination by people all over the world. Not only does it have plenty of beautiful beaches and scenic spots for people to enjoy, it also has a rich culture and history that everyone will find interesting. To give you an overview, the Philippines was colonised by the Spaniards for 333 years until the Americans took over for over 40 years. The British, Japanese and other nationalities also tried their hand at conquering the country within those years. Today, the Philippines has become a melting pot of various cultures and its historic landmarks have played a major part in the country’s tourism industry.&hellip;</i></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Parallax scrolling-->
+	<section class="wrapper" id="parallax-2">
+	</section>
+
+	<section class="wrapper" id="tourist">
+		<div class="d-flex-r" id="textsection1">
+
+			<div class="one_half my-2" id="fixed-1"></div>			
+
+			<div class="one_half text-dark text-left">
+				<div class="border-left m-2 p-2">
+					<h6 class="font-x2 heading text-left text-bold">Mayon Volcano</h6>
+
+					<p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mayon, also known as Mayon Volcano or Mount Mayon, is an active stratovolcano in the province of Albay in Bicol Region, on the large island of Luzon in the Philippines. Renowned as the because of its symmetric conical shape, the volcano with it&apos;s surrounding landscape was declared a national park on July 20, 1938, the first in the nation. It was reclassified a Natural Park and renamed as the Mayon Volcano Natural Park in 2000.
+					<br>
+
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mayon is the main landmark and highest point of the province of Albay and the whole Bicol Region in the Philippines, rising 2,462 metres (8,077 ft) from the shores of the Albay Gulf about 10 kilometres (6.2 mi) away. The volcano is geographically shared by the eight cities and municipalities of Legazpi City, Daraga, Camalig, Guinobatan, Ligao City, Tabaco City, Malilipot and Santo Domingo (clockwise from Legazpi), which divide the cone like slices of a pie when viewing a map of their political boundaries. 
+					<br>
+					<br>
+					Location:		<b>Luzon</b>
+					<br>
+					Country:		<b>Philippines</b>
+					<br>
+					Region: 		<b>Bicol Region</b>
+					<br>
+					Province: 		<b>Albay</b>
+					</p>
+
+				</div>
+			</div>
+	
+		</div>
+	</section>
+
+	<!--Parallax scrolling-->
+	<section class="wrapper" id="parallax-3">
+	</section>
+
+	<section class="wrapper" id="tourist">
+		<div class="d-flex-r" id="textsection1">		
+
+			<div class="one_half text-dark text-right">
+				<div class="border-right m-2 p-2">
+					<h6 class="font-x2 heading text-right text-bold">Aguinaldo Shrine</h6>
+
+					<p class="text-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Filipinos celebrate Independence Day every 12th of June. This is the day that the independence of the Philippines from Spain was declared in 1898 at Aguinaldo Shrine in Kawit, Cavite. The shrine is the ancestral home of General Emilio Aguinaldo, the first officially recognized president of the Philippines. The house was originally built in 1845 and reconstructed in 1849. On June 12, 1963, the house was donated by Aguinaldo to the Philippine government to perpetuate the spirit of 1896 Philippine Revolution that ended the Spanish colonization of our country.
+					<br>
+					<br>
+					Type:	<b>Mansion</b>
+					<br>
+					Architectural style:	<b>American Era Filipino Colonial Bahay na Bato</b>
+					<br>
+					Address:	<b>Tirona Highway</b>
+					<br>
+					Town or city:	<b>Kawit, Cavite</b>
+					<br>
+					Current tenants:	<b>National Historical Commission of the Philippines</b>
+					<br>
+					Construction started:	<b>1845</b>
+					<br>
+					Renovated:	<b>1849 and 1919</b>
+					<br>
+					Owner:	<b>Government of the Philippines</b>
+				</div>
+			</div>
+
+			<div class="one_half my-2" id="fixed-2"></div>
+	
+		</div>
+	</section>
+
+	<!--Parallax scrolling-->
+	<section class="wrapper" id="parallax-4">
+	</section>
+
+	<section class="wrapper" id="tourist">
+		<div class="d-flex-r" id="textsection1">
+
+			<div class="one_half my-2" id="fixed-3"></div>			
+
+			<div class="one_half text-dark text-left">
+				<div class="border-left m-2 p-2">
+					<h6 class="font-x2 heading text-left text-bold">Taal Volcano & Taal Lake</h6>
+
+					<p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Taal Lake in Batangas is one of the most famous tourist attractions in the Philippines. The beautiful landscape of the lake which surrounds Taal Volcano (the smallest active volcano in the world) can also be seen in an overlooking view from Tagaytay City in Cavite. By crossing the lake through a motorized banca, tourists can visit Volcano Island.  On the island, they can hike or ride a horse to reach the top of the volcano where a breathtaking view of the crater containing a crater lake and the Vulcan Point awaits them.
+					<br>
+					<br>
+					Last eruption: <b>1977</b>
+					<br>
+					Elevation: <b>311 m</b>
+					<br>
+					Prominence: <b>306 m</b>
+					<br>
+					Volcanic arc/belt: <b>Macolod Corridor</b>
+					<br>
+					Location: <b>Talisay and San Nicolas, Batangas, Luzon, Philippines</b>
+					</p>
+				</div>
+			</div>
+	
+		</div>
+	</section>
+
+	<!--Parallax scrolling-->
+	<section class="wrapper" id="parallax-5">
+	</section>
+
+	<section class="wrapper" id="tourist">
+		<div class="d-flex-r" id="textsection1">			
+
+			<div class="one_half text-dark text-left">
+				<div class="border-right m-2 p-2">
+					<h6 class="font-x2 heading text-right text-bold">Rice Terraces</h6>
+
+					<p class="text-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Banaue Rice Terraces or Hagdan-hagdang Palayan ng Banawe of Ifugao province in the Philippines is considered by Filipinos as the “Eighth Wonder of the World”. It is a 2,000-year-old terraces built by our ancestors using stone and mud walls to construct and form pond fields for the cultivation of rice in the mountains of Ifugao. It is said that our ancestors built this amazing structure by hands or using only ancient tools for farming. In 1973, the Banaue Rice Terraces was declared as a National Cultural Treasure by virtue of Presidential Decree No. 260.
+					<br>
+					<br>
+					Address: <b>Nueva Vizcaya - Ifugao - Mountain Province Rd, Banaue, Ifugao</b>
+					</p>
+
+				</div>
+			</div>
+	
+			<div class="one_half my-2" id="fixed-4"></div>
+
+		</div>
+	</section>
+
+	<!--Parallax scrolling-->
+	<section class="wrapper" id="parallax-6">
+	</section>
+
+	<section class="wrapper" id="tourist">
+		<div class="d-flex-r" id="textsection1">
+
+			<div class="one_half my-2" id="fixed-5"></div>			
+
+			<div class="one_half text-dark text-left">
+				<div class="border-left m-2 p-2">
+					<h6 class="font-x2 heading text-left text-bold">MacArthur Landing Memorial National Park</h6>
+
+					<p class="text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MacArthur Landing Memorial National Park, also called Leyte Landing Memorial Park and MacArthur Park, is a protected area that commemorates the landing of the allied forces under the command of General Douglas MacArthur during the WWII on October 20, 1944 in Palo Beach, Leyte. This historic event preceded the beginning of the Battle of Leyte Gulf and eventually the liberation of the Philippines from the Japanese occupation. The park is located at Brgy, Candahug and Baras, Palo, Leyte.
+					<br>
+					<br>
+					Location:	<b>Palo, Philippines</b>
+					<br>
+					Nearest city:	<b>Tacloban, Leyte</b>
+					<br>
+					Area:	<b>6.78 hectares (16.8 acres)</b>
+					<br>
+					Established:	<b>July 12, 1977</b>
+					<br>
+					Governing body:	<b>Department of Environment and Natural Resources</b>
+					</p>
+				</div>
+			</div>
+	
+		</div>
+	</section>
+
+	<div class="d-flex-c container wrapper text-dark" id="offers">	
+			<!--Title-->
+			<div class="text-center my-2">
+				<h6 class="heading font-x2">Other Landmarks in the Philippines</h6>
+			</div>
+
+			<div class="d-flex-r">
+				<article class="hover1 mx-2">
+					<figure class="my-1"><img src="phimg/Luzon/tubbataha.jpg"></figure></a>
+					<h3 class="heading font-x1">Tubbataha Reef</h3>
+					<p class="text-justify">The Tubbataha Reefs Natural Park is a 97,030-hectare marine and bird sanctuary located near the middle of Sulu Sea (150 kilometers southeast of Puerto Princesa City, Palawan). It consists of two large atolls and the smaller Jessie Beazley Reef. There are more than 1,000 marine species that inhabit the reefs, including manta rays, sea turtles, clownfish, lionfish, sharks, and the endangered hawksbill sea turtles.</p>
+				</article>
+
+				<article class="hover1 mx-2">
+					<figure class="my-1"><img src="phimg/choc.jpg"></figure></a>
+					<h3 class="heading font-x1">Chocolate Hills</h3>
+					<p class="text-justify">Chocolate Hills, the pride of Boholanos are Mother Nature’s work of wonder and beauty. There are at least 1,260 hills covered in green grasses that turn brown during summer or the dry season, which make them look like chocolates. These amazing hills are spread over the municipalities of Carmen, Sagbayan and Batuan.</p>
+				</article>
+
+				<article class="hover1 mx-2">
+					<figure class="my-1"><img src="phimg/pp1.jpg"></figure></a>
+					<h3 class="heading font-x1">Puerto Prinsesa</h3>
+					<p class="text-justify">CThe Puerto Princesa Subterranean River National Park is a protected area in Palawan, Philippines. It is located approximately 80 kilometers north of Puerto Princesa City. The park has a stunning limestone karst landscape containing an 8.2 km long underground river that flow directly to the West Philippine Sea. The cave system contains stalactites, stalagmites, small underground waterfalls, and more river channels.</p>
+				</article>
+
+				<article class="hover1 mx-2">
+					<figure class="my-1"><img src="phimg/lunetapark.jpg"></figure></a>
+					<h3 class="heading font-x1">Rizal Park</h3>
+					<p class="text-justify">Rizal Park, also known as Luneta Park or simply Luneta, is a historical urban park in the Philippines. Formerly known as Bagumbayan in the era of colonialism under the Spaniards. Rizal Park is located along Roxas Boulevard, Manila, adjacent to the old walled city of Intramuros, it is one of the largest urban parks in Asia. Rizal Park is one of the major tourist attractions of Manila. </p>
+				</article>
+			</div>
+		</div>
+	<!--Footer-->
+	<div class="wrapper bg-default">
+		<footer class="d-flex-r clear container text-white" id="main-footer">
+			<div class="mx-2">
+				<h6 class="heading font-x1 my-1 text-center">Contact</h6>
+				<ul class="nospace linkedlist contact">
+					<li></i>(+63)09174550027</li>
+					<li></i>levibarcenas.05@gmail.com</li>
+				</ul>
+			</div>
+
+			<div class="mx-2">
+				<h6 class="heading my-1 font-x1 text-center">Islands</h6>
+				<ul class="nospace linkedlist">
+					<li><a href="luzon.html">#Luzon</a></li>
+					<li><a href="visayas.html">#Visayas</a></li>
+					<li><a href="mindanao.html">#Mindanao</a></li>
+				</ul>
+			</div>
+
+			<div class="mx-2">
+				<h6 class="heading my-1 font-x1 text-center">Destinations</h6>
+				<ul class="nospace linkedlist">
+					<li><a href="landmarks.html">Landmarks</a></li>
+					<li><a href="beaches.html">Beaches</a></li>
+					<li><a href="waterfalls.html">Waterfalls</a></li>
+				</ul>
+			</div>
+		</footer>
+
+		<div class="d-flex-r clear justify-content-space-between" id="copyright">
+			<p class="d-flex-r">John Levi P. Barcenas BSIT 3-2</p>
+			<a href="#myPage" id="backtotop"><i class="fa fa-chevron-up"></i></a>
+		</div>
+	</div>
+</body>
+</html>

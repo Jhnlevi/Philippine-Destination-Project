@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Visayas</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/png" href="phimg/travel.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Comfortaa">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		.btn, .btn.inverse:hover{
+				background-color: #FFD700;
+				border-color: #FFD700;
+		}
+		.bg-default{
+			background-color: #FFD700;
+		}
+		#parallax-1{
+			background: url(phimg/choc.jpg) fixed no-repeat;
+			height: 650px;
+			background-position: center;
+			background-size: cover;
+		}
+		.logo{
+			color: #FFD700;
+		}
+		nav ul li a:hover, nav ul li a.active{
+			background: #FFD700;
+		}
+		#banner-text h1{
+			color: #FFD700;
+		}
+		#textsection h6{
+			color: #FFD700;
+		}
+		table, th, td {
+		  color: #FFD700;
+		}
+		#gallery h6{
+		color: #FFD700;
+		background-color: #FFF;
+		display: inline-block;
+		}
+		.hover1 h2{
+			color: #FFD700;
+		}
+		#tourist img{
+			height: 400px;
+			background-position: center;
+			background-size: cover;
+			background-color: #FFD700;
+		}
+	</style>
+	<!--smooth scroll-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		  $("a").on('click', function(event) {  
+		    if (this.hash !== "") {
+		      var hash = this.hash;
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top
+		      }, 800, function(){
+		        window.location.hash = hash;
+		      });
+		    }
+		  });
+		});
+		</script>
+</head>
+<body id="myPage">
+	<section id="parallax-1">
+		<div class="overlay">
+		<header class="d-flex-c justify-content-space-between">
+		<nav class="nav-main text-dark">
+			<a href="https://en.wikipedia.org/wiki/Philippines" class="logo text-center font-x1 text-bold">#Philippines</a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+
+				<li ><a href="#" class="active">Islands</a>
+					<ul>
+						<li><a href="luzon.html">Luzon</a></li>
+						<li><a href="visayas.html" class="active">Visayas</a></li>
+						<li><a href="mindanao.html">Mindanao</a></li>
+					</ul>
+				</li>
+
+				<li><a href="#gallery">Gallery</a></li>
+
+				<li><a href="#">Destinations</a>
+					<ul>
+						<li><a href="landmarks.html">Landmarks</a></li>
+						<li><a href="beaches.html">Beaches</a></li>
+						<li><a href="waterfalls.html">Waterfalls</a></li>
+					</ul>
+				</li>	
+
+			</ul>
+		</nav>
+		<div class="clearfix"></div>
+		</header>
+
+		<!--Banner Text-->
+		<div id="banner-text" class="d-flex-c text-center">
+			<article>
+				<p class="font-x1"><i>It's more fun in the Philippines</i></p>
+				<h1 class="heading text-center text-uppercase text-bold font-x4">#Visayas</h1>
+				<p class="font-x1 text-uppercase"><i>Be part of the fun!</i></p>
+				<footer><button class="btn"><a href="#textsection">Travel Now!</a></button></footer>
+			</article>
+		</div>
+			<!--Banner Text Ends Here-->
+		</div>
+	</section>
+	<!--text section-->
+	<section class="wrapper text-dark bg-grey" id="textsection">
+		<div class="d-flex-c container">
+			<!--Title -->
+			<div class="text-center">
+				<h6 class="heading font-x3">Welcome to Visayas</u></h6>
+			</div>
+
+			<div>
+				<div class="one_half mx-2 font-xs text-justify" id="main-text">
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Visayan Islands, also called Visayas or Bisayas, is one of the Philippines&apos; 3 main island groups. In Central Visayas, Cebu City&apos;s Spanish colonial architecture includes the triangular Fort San Pedro and the Basilica del Santo Nino. Bohol Island&apos;s Chocolate Hills are a group of more than 1,000 conical, grass-covered mounds that turn brown in the dry season. In Corella, rare bug-eyed primates called tarsiers are protected at the Philippine Tarsier Sanctuary. It&apos;s inhabitants are predominantly the Visayan peoples. The major islands of the Visayas are Panay, Negros, Cebu, Bohol, Leyte and Samar.[6] The region may also include the provinces of Palawan, Romblon, and Masbate whose populations identify as Visayan and whose languages are more closely related to other Visayan languages than to the major languages of Luzon. High mountains characterize most of the Visayan Islands with the exception of Samar and Masbate, which are exceedingly hilly. Panay has extensive eastern plains where sugarcane and rice are farmed.&hellip;</p>
+				</div>
+
+				<div class="one_half" id="main-text">
+					<p class="font-xs text-justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Negros has large western plains on which sugarcane is grown. Corn (maize), coconuts, bananas, tobacco, abaca, and root crops also are widely grown, and fishing is also important in the Visayas. The densely populated Visayan island group constitutes an ethnolinguistic region defined by the dominance of the three major Visayan languages: Cebuano (which is the mother tongue of about one-fifth of the Philippines&apos; population), Hiligaynon, and Waray-Waray. Cebuano speakers live mainly on Cebu, Bohol, eastern Negros, and western Leyte. The Hiligaynon are concentrated on Panay, western Negros, and Masbate, while the Waray-Waray are found mainly on Samar and eastern Leyte. The two major Visayan urban centres are Cebu City on Cebu and Iloilo City on Panay. Area 22,289 square miles (57,728 square km). Pop. (2000) 15,872,692; (2010) 18,417,821.&hellip;</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="wrapper" id="tourist">
+		<div class="d-flex-r" id="textsection1">
+
+			<div class="one_half" id="fixed-1"><img src="phimg/choc.jpg">
+				
+			</div>	
+
+			<div class="one_half text-dark text-center">
+				<div class="m-2 p-2">
+					<h6 class="font-x1 heading text-left text-uppercase"><font color="#FFD700">Here are some interesting and important facts about the Visayas:</h6></font>
+
+					<p class="text-left">
+						1. The 3 administrative regions in the Visayas are Eastern Visayas Region, Central Visayas Region and Western Visayas Region.
+						<br>
+						<br>
+						2. The provinces that comprised Western Visayas Region or Region VI are Aklan, Antique, Capiz, Guimaras, Iloilo and Negros Occidental.
+						<br>
+						<br>
+						3. Region VI has 16 cities making it the region with the most cities in the Philippines with Iloilo City as its regional center.
+						<br>
+						<br>
+						4. The provinces that comprised Central Visayas Region or Region VII are Bohol, Cebu, Negros Oriental and Siquijor.
+						<br>
+						<br>
+						5. There are 3 highly urbanized cities in Region VII – Cebu City, Lapulapu City and Mandaue City.
+					</p>
+
+				</div>
+			</div>
+					
+		</div>
+	</section>
+	<section class="wrapper" id="tourist">
+		<div class="d-flex-r" id="textsection1">
+
+			<div class="one_half text-dark text-center">
+				<div class="m-2 p-2">
+					<p class="text-left">
+						6. Biliran, Eastern Samar, Leyte, Northern Samar, Samar and Southern Leyte are the provinces of Region VIII or Eastern Visayas Region.
+						<br>
+						<br>
+						7. Region VIII has 6 cities with the highly urbanized Tacloban City as the regional center.
+						<br>
+						<br>
+						8. Panay, with an area of 12,011 km2, is the world’s 65th largest island in terms of size.
+						<br>
+						<br>
+						9. Panay Island is called Aninipay by the Aetas, the original settlers of the island.
+						<br>
+						<br>
+						10. Malay settlers called it Madia-as when they arrived in 12th century CE. It was the Spaniards who named it Pan-ay and was the Spanish second settlement in the country after San Miguel in Cebu.
+					</p>
+
+				</div>
+			</div>
+
+			<div class="one_half text-dark text-center">
+				<div class="m-2 p-2">
+					<p class="text-left">
+						11. The Spaniards, led by Legazpi, found the people of Panay with tattoos and so it was named “Isla de los Pintados” and its residents “Pintados”.
+						<br>
+						<br>
+						12. The 6 major islands of the Visayas are Bohol, Cebu, Leyte, Panay, Negros and and Samar.
+						<br>
+						<br>
+						13. Negros is the 3rd largest island in the Philippines. Samar is 4th, Panay is 6th, Leyte is 8th, Cebu is 9th and Bohol is the 10th largest island in the country.
+						<br>
+						<br>
+						14. Negros Island, with an area of 13,328 km², is the 62nd largest island in the world and the 3rd in the Philippines.
+						<br>
+						<br>
+						15. Cebu Island is the sight where Ferdinand Magellan was killed in the Battle of Mactan in 1521.
+					</p>
+
+				</div>
+			</div>
+					
+		</div>
+	</section>
+	<!-- Gallery -->
+	<section class="wrapper text-dark bg-grey" id="gallery">
+		<div class="container d-flex-c">
+			
+			<!--title-->
+			<div class="text-center">
+				<h6 class="heading my-2 font-x2">Popular Destinations in Visayas</h6>
+			</div>
+			<!-- IMAGES first row -->
+			<ul class="d-flex-r nospace">
+				<li class="hover1">
+					<img src="phimg/Visayas/mararison.jpg">
+					<div class="overlay">
+						<h2>Mararison Island</h2>
+					</div>
+				</li>
+
+				<li class="hover1">
+					<img src="phimg/Visayas/simala.jpg">
+					<div class="overlay">
+						<h2>Simala Shrine</h2>
+					</div>
+				</li>
+
+				<li class="hover1">
+					<img src="phimg/Visayas/panglao.jpg">
+					<div class="overlay">
+						<h2>Panglao Island</h2>
+					</div>
+				</li>
+			</ul>
+
+			<!-- IMAGES 2nd row -->
+			<ul class="d-flex-r nospace">
+				<li class="hover1">
+					<img src="phimg/Visayas/molo.jpg">
+					<div class="overlay">
+						<h2>Molo Church</h2>
+
+					</div>
+				</li>
+
+				<li class="hover1">
+					<img src="phimg/Visayas/mactan.jpg">
+					<div class="overlay">
+						<h2>Mactan Shrine</h2>
+					</div>
+				</li>
+
+				<li class="hover1">
+					<img src="phimg/Visayas/loboc.jpg">
+					<div class="overlay">
+						<h2>Loboc River</h2>
+					</div>
+				</li>
+			</ul>
+
+			<!-- IMAGES 3rd row -->
+			<ul class="d-flex-r nospace">
+				<li class="hover1">
+					<img src="phimg/Visayas/kawasan.jpg">
+					<div class="overlay">
+						<h2>Kawasan Falls</h2>
+					</div>
+				</li>
+
+				<li class="hover1">
+					<img src="phimg/Visayas/jawili.jpg">
+					<div class="overlay">
+						<h2>Jawili Falls</h2>
+					</div>
+				</li>
+
+				<li class="hover1">
+					<img src="phimg/Visayas/blood.jpg">
+					<div class="overlay">
+						<h2>Blood Compact Monument</h2>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+<!--Footer-->
+	<div class="wrapper bg-default">
+		<footer class="d-flex-r clear container text-white" id="main-footer">
+			<div class="mx-2">
+				<h6 class="heading font-x1 my-1 text-center">Contact</h6>
+				<ul class="nospace linkedlist contact">
+					<li></i>(+63)09174550027</li>
+					<li></i>levibarcenas.05@gmail.com</li>
+				</ul>
+			</div>
+
+			<div class="mx-2">
+				<h6 class="heading my-1 font-x1 text-center">Islands</h6>
+				<ul class="nospace linkedlist">
+					<li><a href="luzon.html">#Luzon</a></li>
+					<li><a href="visayas.html">#Visayas</a></li>
+					<li><a href="mindanao.html">#Mindanao</a></li>
+				</ul>
+			</div>
+
+			<div class="mx-2">
+				<h6 class="heading my-1 font-x1 text-center">Destinations</h6>
+				<ul class="nospace linkedlist">
+					<li><a href="landmarks.html">Landmarks</a></li>
+					<li><a href="beaches.html">Beaches</a></li>
+					<li><a href="waterfalls.html">Waterfalls</a></li>
+				</ul>
+			</div>
+		</footer>
+
+		<div class="d-flex-r clear justify-content-space-between" id="copyright">
+			<p class="d-flex-r">John Levi P. Barcenas BSIT 3-2</p>
+			<a href="#myPage" id="backtotop"><i class="fa fa-chevron-up"></i></a>
+		</div>
+	</div>
+</body>
+</html>

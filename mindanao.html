@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mindanao</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/png" href="phimg/travel.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Comfortaa">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		.btn, .btn.inverse:hover{
+				background-color: #F24C4E;
+				border-color: #F24C4E;
+		}
+		.bg-default{
+			background-color: #F24C4E;
+		}
+		#parallax-1{
+			background: url(phimg/mountapo.jpg) fixed no-repeat;
+			height: 650px;
+			background-position: center;
+			background-size: cover;
+		}
+		.logo{
+			color: #F24C4E;
+		}
+		nav ul li a:hover, nav ul li a.active{
+			background: #F24C4E;
+		}
+		#banner-text h1{
+			color: #F24C4E;
+		}
+		#textsection h6{
+			color: #F24C4E;
+		}
+		#gallery h6{
+		color: #F24C4E;
+		background-color: #FFF;
+		display: inline-block;
+		}
+		.hover1 h2{
+			color: #F24C4E;
+		}
+		table, th, td {
+		  color: #F24C4E;
+		}
+		#tourist img{
+			height: 400px;
+			background-position: center;
+			background-size: cover;
+			background-color: #1E90FF;
+		}
+	</style>
+	<!--smooth scroll-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		  $("a").on('click', function(event) {  
+		    if (this.hash !== "") {
+		      var hash = this.hash;
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top
+		      }, 800, function(){
+		        window.location.hash = hash;
+		      });
+		    }
+		  });
+		});
+		</script>
+</head>
+<body id="myPage">
+	<section id="parallax-1">
+		<div class="overlay">
+		<header class="d-flex-c justify-content-space-between">
+		<nav class="nav-main text-dark">
+			<a href="https://en.wikipedia.org/wiki/Philippines" class="logo text-center font-x1 text-bold">#Philippines</a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+
+				<li><a href="#" class="active">Islands</a>
+					<ul>
+						<li><a href="luzon.html">Luzon</a></li>
+						<li><a href="visayas.html">Visayas</a></li>
+						<li><a href="mindanao.html" class="active">Mindanao</a></li>
+					</ul>
+				</li>
+
+				<li><a href="#gallery">Gallery</a></li>
+
+				<li><a href="#">Destinations</a>
+					<ul>
+						<li><a href="landmarks.html">Landmarks</a></li>
+						<li><a href="beaches.html">Beaches</a></li>
+						<li><a href="waterfalls.html">Waterfalls</a></li>
+					</ul>
+				</li>			
+
+			</ul>
+		</nav>
+		<div class="clearfix"></div>
+		</header>
+
+		<!--Banner Text-->
+		<div id="banner-text" class="d-flex-c text-center">
+			<article>
+				<p class="font-x1"><i>It's more fun in the Philippines</i></p>
+				<h1 class="heading text-center text-uppercase text-bold font-x4">#Mindanao</h1>
+				<p class="font-x1 text-uppercase"><i>Be part of the fun!</i></p>
+				<footer><button class="btn"><a href="#textsection">Travel Now!</a></button></footer>
+			</article>
+		</div>
+			<!--Banner Text Ends Here-->
+		</div>
+	</section>
+	<!--text section-->
+	<section class="wrapper text-dark bg-grey" id="textsection">
+		<div class="d-flex-c container">
+			<!--Title -->
+			<div class="text-center">
+				<h6 class="heading font-x3">Welcome to Mindanao</u></h6>
+			</div>
+
+			<div>
+				<div class="one_half mx-2 font-xs text-justify" id="main-text">
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mindanao encompasses the large island of Mindanao plus smaller islands in the southern Philippines. In its largest city, Davao, the Philippine Eagle Centre and Davao Crocodile Park showcase local wildlife. The urban People&apos;s Park features statues of indigenous people and the Durian Dome, named after the spiky, smelly fruit that grows in abundance on Mindanao. Southwest, the Mount Apo volcano has trails and a lake. Mindanao and the smaller islands surrounding it make up the island group of the same name. Located in the southern region of the archipelago, as of the 2010 census, the main island was inhabited by 20,281,545 people, while the entire Mindanao island group had an estimated total of 25,537,691 (2018) residents. &hellip;</p>
+				</div>
+
+				<div class="one_half" id="main-text">
+					<p class="font-xs text-justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rugged, faulted mountains and volcanoes occur in many areas. Mount Apo, at 9,692 feet (2,954 metres), is an active volcano in the southern part of the central highlands; it is the highest peak in the Philippines. The island has narrow coastal plains, and broad, fertile basins and extensive swamps are formed by the Mindanao and Agusan river systems. Lake Lanao (Lake Sultan Alonto), created by a lava dam, has an area of 134 square miles (347 square km). The island has a marsh-game refuge and bird sanctuary. The rare Philippine eagle is found on Mindanao.&hellip;</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="wrapper" id="tourist">
+		<div class="d-flex-r" id="textsection1">
+
+			<div class="one_half" id="fixed-1"><img src="phimg/mountapo.jpg">
+				
+			</div>	
+
+			<div class="one_half text-dark text-center">
+				<div class="m-2 p-2">
+					<h6 class="font-x1 heading text-left text-uppercase"><font color="#F24C4E">Here are some interesting facts about Mindanao – the Land of Promise.</h6></font>
+
+					<p class="text-left">
+						1. With an area of 97,530 km2, Mindanao is the 2nd largest Philippine island and the world’s 19th largest island.
+						<br>
+						<br>
+						2. The colorful Vintas are the traditional boats of the Badjaus and Moros of Sulu Archipelago particularly in Zamboanga City. These water vessels with very colorful sails are used for inter-island transportation.
+						<br>
+						<br>
+						3. The largest city in Mindanao is Davao City and the highest peak in the Philippines is Mount Apo.
+						<br>
+						<br>
+						4. Crime rate is much higher in Mindanao than in Luzon and in the Visayas. Fighting between government troops and Muslim rebels, separatists and terrorists continue up to now.
+						<br>
+						<br>
+						5. The collective group of indigenous tribes in Mindanao called Lumad is composed of Kamayo, Manobo, Tasaday and T’boli.
+					</p>
+
+				</div>
+			</div>
+					
+		</div>
+	</section>
+	<section class="wrapper" id="tourist">
+		<div class="d-flex-r" id="textsection1">
+
+			<div class="one_half text-dark text-center">
+				<div class="m-2 p-2">
+					<p class="text-left">
+						6. Mindanao is the 8th most populous island in the world. It is larger in size than 125 countries in the world.
+						<br>
+						<br>
+						7. Four seas surround the island of Mindanao – Mindanao Sea in the North, Philippine Sea in the east, Celebes Sea in the south and Sulu Sea in the west.
+						<br>
+						<br>
+						8. There are two sultanates in Mindanao – Sultanate of Sulu and Sultanate of Maguindanao.
+						<br>
+						<br>
+						9. Philippine Deep, which is also known as Mindanao Deep, is a trench located a few miles offshore the island of Mindanao.
+						<br>
+						<br>
+						10. It is 10,800 meters deep and is one of the greatest depths known to exist on the surface of the Earth.
+					</p>
+
+				</div>
+			</div>
+
+			<div class="one_half" id="fixed-1"><img src="phimg/zambo.jpg">
+					
+		</div>
+	</section>
+	<!-- Gallery -->
+	<section class="wrapper text-dark bg-grey" id="gallery">
+		<div class="container d-flex-c">
+			
+			<!--title-->
+			<div class="text-center">
+				<h6 class="heading my-2 font-x2">Popular Destinations in Mindanao</h6>
+			</div>
+			<!-- IMAGES first row -->
+			<ul class="d-flex-r nospace">
+				<li class="hover1">
+					<img src="phimg/Mindanao/mimbalut.jpg">
+					<div class="overlay">
+						<h2>Mimbalut Falls</h2>
+					</div>
+				</li>
+
+				<li class="hover1">
+					<img src="phimg/Mindanao/burias.jpg">
+					<div class="overlay">
+						<h2>Burias Shoal</h2>
+					</div>
+				</li>
+
+				<li class="hover1">
+					<img src="phimg/Mindanao/abaga.jpg">
+					<div class="overlay">
+						<h2>Abaga Falls</h2>
+					</div>
+				</li>
+			</ul>
+
+			<!-- IMAGES 2nd row -->
+			<ul class="d-flex-r nospace">
+				<li class="hover1">
+					<img src="phimg/Mindanao/dodiongan.jpg">
+					<div class="overlay">
+						<h2>Dodiongan Falls</h2>
+
+					</div>
+				</li>
+
+				<li class="hover1">
+					<img src="phimg/Mindanao/hibok.jpg">
+					<div class="overlay">
+						<h2>Mount Hibok-Hibok</h2>
+					</div>
+				</li>
+
+				<li class="hover1">
+					<img src="phimg/Mindanao/mapawa.jpg">
+					<div class="overlay">
+						<h2>Mapawa Cave</h2>
+					</div>
+				</li>
+			</ul>
+
+			<!-- IMAGES 3rd row -->
+			<ul class="d-flex-r nospace">
+				<li class="hover1">
+					<img src="phimg/Mindanao/sohoton.jpg">
+					<div class="overlay">
+						<h2>Sohoton Cove</h2>
+					</div>
+				</li>
+
+				<li class="hover1">
+					<img src="phimg/Mindanao/bonggao.jpg">
+					<div class="overlay">
+						<h2>Mount Bonggao</h2>
+					</div>
+				</li>
+
+				<li class="hover1">
+					<img src="phimg/Mindanao/tinago.jpg">
+					<div class="overlay">
+						<h2>Tinago Falls</h2>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<!--Footer-->
+	<div class="wrapper bg-default">
+		<footer class="d-flex-r clear container text-white" id="main-footer">
+			<div class="mx-2">
+				<h6 class="heading font-x1 my-1 text-center">Contact</h6>
+				<ul class="nospace linkedlist contact">
+					<li></i>(+63)09174550027</li>
+					<li></i>levibarcenas.05@gmail.com</li>
+				</ul>
+			</div>
+
+			<div class="mx-2">
+				<h6 class="heading my-1 font-x1 text-center">Islands</h6>
+				<ul class="nospace linkedlist">
+					<li><a href="luzon.html">#Luzon</a></li>
+					<li><a href="visayas.html">#Visayas</a></li>
+					<li><a href="mindanao.html">#Mindanao</a></li>
+				</ul>
+			</div>
+
+			<div class="mx-2">
+				<h6 class="heading my-1 font-x1 text-center">Destinations</h6>
+				<ul class="nospace linkedlist">
+					<li><a href="landmarks.html">Landmarks</a></li>
+					<li><a href="beaches.html">Beaches</a></li>
+					<li><a href="waterfalls.html">Waterfalls</a></li>
+				</ul>
+			</div>
+		</footer>
+
+		<div class="d-flex-r clear justify-content-space-between" id="copyright">
+			<p class="d-flex-r">John Levi P. Barcenas BSIT 3-2</p>
+			<a href="#myPage" id="backtotop"><i class="fa fa-chevron-up"></i></a>
+		</div>
+	</div>
+</body>
+</html>
